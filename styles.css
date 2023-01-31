@@ -1,0 +1,40 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  max-width: 80vw;
+  background-color: rgb(233, 137, 137);
+  padding: 8px 12px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: inline;
+  padding: 3px 12px;
+  border-left: 1px solid black;
+}
+
+nav li:first-child {
+  border-left: none;
+}
+
+nav li a {
+  transition: all 150ms ease-in;
+  padding: 3px 12px;
+}
+
+nav li a:hover {
+  background-color: rgb(109, 109, 210);
+  color: white;
+}
